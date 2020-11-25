@@ -1,0 +1,124 @@
+body
+{
+	background-image: url("erettsegi.jpg");
+	font-family: monospace;
+	font-size:20px;
+    background-attachment: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1400px;
+}
+
+#gombok
+{
+	width: 75%;
+	height: 75px;
+	font-size: 20px;
+	font-family: lato;
+	background-color: #8adaff;
+	color: rgb(14, 9, 9);
+	border: 2;
+	margin-top: 20px;
+	box-shadow: 2px 2px lightgrey;
+    margin: 10px 10px 10px 15px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.1;
+}
+
+table, th, td
+{
+    color: rgb(8, 7, 7);
+    font-family: Arial;
+    border: 2px solid white;
+    background-color: rgb(255,255,255,0.3);
+
+}
+
+form
+{
+    color: black;
+    background-color: rgb(255,255,255,0.5);
+    margin-right: 848px;
+}
+
+#tetelek
+{
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+    background-color: rgb(255,255,255,0.3);
+}
+
+#menu
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#gombok:hover
+{
+    background-color: cornflowerblue;
+    text-decoration: none;
+}
+
+#cim
+{
+    font-family: Times New Roman;
+    text-align: left;
+    font-size: 85px;
+    color: #fff;
+    border: 0px;
+}
+
+#content
+{
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max—height 0.7s;
+}
+
+#content.open {
+    max-height: 1000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more {
+    background: #1594e5;
+    color: #fff;
+    font-family: calibri;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+h5
+{
+    font-family: Blippo;
+}
+
+#magyar
+{    
+ width: 100%;   
+}
